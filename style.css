@@ -12,7 +12,18 @@ h1 {
     margin-bottom: 0;
 }
 
-h3 {
+img {
+    width: 400px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.sub-tittle {
     margin-top: 0;
 }
 
@@ -26,7 +37,7 @@ h3 {
     background-color: #618685;
     padding: 8px;
     border-radius: 24px;
-    min-width: 750px;
+    min-width: 950px;
 
     display: grid;
     grid-template-columns: 160px repeat(3, 1fr);
@@ -88,19 +99,19 @@ h3 {
 }
 
 .Condition-Markers {
-    grid-area: 6/2/6/2;
-}
-
-.Smoke-n-Spectre {
     grid-area: 7/2/7/2;
 }
 
-.DJinni-Music-Player {
+.Smoke-n-Spectre {
     grid-area: 8/2/8/2;
 }
 
+.DJinni-Music-Player {
+    grid-area: 9/2/9/2;
+}
+
 .dddice {
-    grid-area: 1/3/1/3;
+    grid-area: 1/5/1/5;
 }
 
 .hp-tracker {
@@ -112,15 +123,15 @@ h3 {
 }
 
 .Marked {
-    grid-area: 6/3/6/3;
+    grid-area: 7/3/7/3;
 }
 
 .Tracks {
-    grid-area: 8/3/8/3;
+    grid-area: 9/3/9/3;
 }
 
 .Rumble {
-    grid-area: 1/4/1/4;
+    grid-area: 1/3/1/3;
 }
 
 .Clash {
@@ -128,13 +139,46 @@ h3 {
 }
 
 .Character-Distances {
-    grid-area: 5/4/5/4;
+    grid-area: 6/2/6/2;
 }
 
 .Colored-Rings {
-    grid-area: 6/4/6/4;
+    grid-area: 7/4/7/4;
 }
 
 .Sit {
     grid-area: 2/5/2/5;
+}
+
+.Movement-Tracker {
+    grid-area: 5/4/5/4;
+}
+
+.AOE-Shapes {
+    grid-area: 6/3/6/3;
+}
+
+.Witchdice {
+    grid-area: 1/4/1/4;
+}
+
+.article {
+    background-color: #2e3d5a;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 24px;
+    max-width: 720px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.article-tittle {
+    margin-top: 16px;
+    margin-bottom: 2px;
+}
+
+.article-info {
+    margin-top: 2px;
+    margin-bottom: 24px;
 }
