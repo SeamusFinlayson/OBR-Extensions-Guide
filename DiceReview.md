@@ -10,7 +10,7 @@ First we’ll look at Dice, the first-party extension designed by the Owlbear Ro
 
 ![image](https://raw.githubusercontent.com/owlbear-rodeo/dice/main/docs/header.jpg)
 
-But, for some, it might ba a little too simple. The dice selection is quite limited and it doesn't save the result of previous rolls, which brings us to...
+But, for some, it might be a little too simple. The dice selection is quite limited and it doesn't save the result of previous rolls, which brings us to...
 
 ### Rumble!
 
