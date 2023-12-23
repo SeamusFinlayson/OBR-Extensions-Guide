@@ -1,0 +1,132 @@
+body {
+    background-color: #36486b;
+    color: #fefbd8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mother-div {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+}
+
+.extensions-grid {
+    background-color: #618685;
+    padding: 8px;
+    border-radius: 24px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(1fr,8);
+}
+
+.columnDivider {
+    border-right: 1px solid #DEDEDE;
+    margin-right:-10px; /* size of gutter */
+    padding-right:10px; /* size of gutter */
+}
+
+.category {
+    grid-column: 1 / span 1;
+    font-weight: bold;
+    padding: 16px;
+    font-size: x-large;
+    justify-self: start;
+    align-self: center;
+    /* text-align: end; */
+}
+
+.extension {
+    background-color: #2e3d5a;
+    margin: 4px;
+    padding: 12px;
+    border-radius: 16px;
+    text-decoration: none;
+    text-decoration-color: #fefbd8;
+
+    display: flex;
+    align-items: center;
+}
+
+.extension:hover {
+    background-color: #394769;
+}
+
+.extension-image {
+    width: 32px;
+    height: 32px;
+}
+
+.extension-text {
+    font-weight: bold;
+    margin: 9px 8px 7px 16px;
+    color: #fefbd8;
+}
+
+.Dice {
+    grid-area: 1/2/1/2;
+}
+
+.Initiative {
+    grid-area: 2/2/2/2;
+}
+
+.Stat-Bubbles-for-DnD {
+    grid-area: 3/2/3/2;
+}
+
+.Bendy-Ruler {
+    grid-area: 5/2/5/2;
+}
+
+.Condition-Markers {
+    grid-area: 6/2/6/2;
+}
+
+.Smoke-n-Spectre {
+    grid-area: 7/2/7/2;
+}
+
+.DJinni-Music-Player {
+    grid-area: 8/2/8/2;
+}
+
+.dddice {
+    grid-area: 1/3/1/3;
+}
+
+.hp-tracker {
+    grid-area: 2/3/5/3;
+}
+
+.path-measure {
+    grid-area: 5/3/5/3;
+}
+
+.Marked {
+    grid-area: 6/3/6/3;
+}
+
+.Tracks {
+    grid-area: 8/3/8/3;
+}
+
+.Rumble {
+    grid-area: 1/4/1/4;
+}
+
+.Clash {
+    grid-area: 2/4/5/4;
+}
+
+.Character-Distances {
+    grid-area: 5/4/5/4;
+}
+
+.Colored-Rings {
+    grid-area: 6/4/6/4;
+}
+
+.Sit {
+    grid-area: 2/5/2/5;
+}
