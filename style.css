@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
     max-width: 1080px; 
-	margin: 0 auto !important; 
+    margin: 0 auto !important; 
 	float: none !important; 
 }
 
@@ -19,14 +19,14 @@ h3 {
 .mother-div {
     display: flex;
     flex-direction: column;
-    margin: 32px;
+    margin: 16px;
 }
 
 .extensions-grid {
     background-color: #618685;
     padding: 8px;
     border-radius: 24px;
-    min-width: 940px;
+    min-width: 750px;
 
     display: grid;
     grid-template-columns: 160px repeat(3, 1fr);
