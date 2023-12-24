@@ -1,8 +1,8 @@
-## Dice Extensions Review
+## Dice Extensions Guide
 
 *Written by Seamus Finlayson on Dec. 23, 2023*
 
-Owlbear Rodeo has 4 great dice extensions that work well with D&D.
+Owlbear Rodeo has great dice extensions that work well with D&D.
 
 ### Dice
 
