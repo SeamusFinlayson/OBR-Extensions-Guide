@@ -311,3 +311,27 @@ p {
     margin-bottom: 24px;
 }
 
+.tutorial-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tutorial-link {
+    background-color: #2e3d5a;
+    margin: 4px;
+    padding: 4px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-decoration-color: #FFF5EA;
+    color: white;
+
+    display: inline-flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.tutorial-link:hover {
+    background-color: #212d44;
+}
