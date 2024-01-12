@@ -31,7 +31,7 @@ Contact me for translation contributions. Please write translated articles in ma
 
 ### Add Extensions
 
-The list of extensions I have added to the table is not comprehensive. If you think another extension should be added to this lsit let me know. The table is not oppinionated, if something is left off it is by mistake or because I didn't see how it could be used for D&D. This is a D&D specific table, I am somewhat opposed to a miscilaneous section, but could be talked into it. If you want a new catagory it should have at least 2 extensions in it.
+The list of extensions I have added to the table is not comprehensive. If you think another extension should be added to this lsit let me know. The table is not oppinionated, if something is left off it is by mistake or because I didn't see how it could be used for D&D at the time. This is a D&D specific table, I am somewhat opposed to a miscilaneous section, but could be talked into it. If you want a new catagory it should have at least 2 extensions in it.
 
 ## Follow this project
 
