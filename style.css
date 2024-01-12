@@ -116,7 +116,7 @@ p {
     margin: 4px;
     padding: 8px;
     border-radius: 16px;
-    justify-self: start;
+    justify-self: stretch;
     align-self: center;
 
     display: flex;
