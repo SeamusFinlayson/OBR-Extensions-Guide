@@ -83,7 +83,18 @@ p {
 
     display: grid;
     grid-template-columns: minmax(100px, 180px) repeat(4, 1fr);
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas:
+        ". dice rumble witchdice dddice"
+        ". . hptracker . ."
+        ". initiative hptracker clash sit"
+        ". statbubbles hptracker clash tokencounter"
+        ". . hptracker clash ."
+        ". bendy path movement ."
+        ". chardist aoeshapes . ."
+        ". condition marked rings ."
+        ". smoke . . ."
+        ". djinni tracks . .";
 }
 
 .category {
@@ -131,6 +142,10 @@ p {
     animation-delay: 700ms;
 }
 
+.category-with-article.dice {
+    grid-row: span 2;
+}
+
 .category-with-article:hover {
     background-color: rgba(0, 0, 0, 0.116);
     transform: rotate(-1deg) translateY(-3px);
@@ -139,7 +154,7 @@ p {
 @keyframes tilt-shaking {
     0% { transform: rotate(0deg); background-color: rgba(0, 0, 0, 0.116);}
     25% { transform: rotate(3deg); }
-    50% { transform: rotate(0eg); }
+    50% { transform: rotate(0); }
     75% { transform: rotate(-3deg); }
     100% { transform: rotate(0deg); background-color: rgba(0, 0, 0, 0.116);}
 }
@@ -205,87 +220,87 @@ p {
 }
 
 .Dice {
-    grid-area: 1/2/1/2;
+    grid-area:dice;
 }
 
 .Initiative {
-    grid-area: 2/2/2/2;
+    grid-area: initiative;
 }
 
 .Stat-Bubbles-for-DnD {
-    grid-area: 3/2/3/2;
+    grid-area: statbubbles;
 }
 
 .Bendy-Ruler {
-    grid-area: 5/2/5/2;
+    grid-area: bendy;
 }
 
 .Condition-Markers {
-    grid-area: 7/2/7/2;
+    grid-area: condition;
 }
 
 .Smoke-n-Spectre {
-    grid-area: 8/2/8/2;
+    grid-area: smoke;
 }
 
 .DJinni-Music-Player {
-    grid-area: 9/2/9/2;
+    grid-area: djinni;
 }
 
 .dddice {
-    grid-area: 1/5/1/5;
+    grid-area: dddice;
 }
 
 .hp-tracker {
-    grid-area: 2/3/5/3;
+    grid-area: hptracker;
 }
 
 .path-measure {
-    grid-area: 5/3/5/3;
+    grid-area: path;
 }
 
 .Marked {
-    grid-area: 7/3/7/3;
+    grid-area: marked;
 }
 
 .Tracks {
-    grid-area: 9/3/9/3;
+    grid-area: tracks;
 }
 
 .Rumble {
-    grid-area: 1/3/1/3;
+    grid-area: rumble;
 }
 
 .Clash {
-    grid-area: 2/4/5/4;
+    grid-area: clash;
 }
 
 .Character-Distances {
-    grid-area: 6/2/6/2;
+    grid-area: chardist;
 }
 
 .Colored-Rings {
-    grid-area: 7/4/7/4;
+    grid-area: rings;
 }
 
 .Sit {
-    grid-area: 2/5/2/5;
+    grid-area: sit;
 }
 
 .Movement-Tracker {
-    grid-area: 5/4/5/4;
+    grid-area: movement;
 }
 
 .AOE-Shapes {
-    grid-area: 6/3/6/3;
+    grid-area: aoeshapes;
 }
 
 .Witchdice {
-    grid-area: 1/4/1/4;
+    grid-area: witchdice;
 }
 
 .Token-Counter {
-    grid-area: 3/5/3/5;
+    grid-area: tokencounter;
 }
 
 .article {
