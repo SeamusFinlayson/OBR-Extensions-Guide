@@ -1,0 +1,17 @@
+{
+  "name": "obr-extension-guide",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/SeamusFinlayson/OBR-Extensions-Guide.git",
+  "author": "Seamus Finlayson <77430559+SeamusFinlayson@users.noreply.github.com>",
+  "license": "GPLv3",
+  "private": true,
+  "dependencies": {
+    "vite": "5.0.12"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite preview",
+    "preview": "vite preview"
+  }
+}

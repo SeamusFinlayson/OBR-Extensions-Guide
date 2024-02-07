@@ -1,352 +1,379 @@
 body {
-    background-color: #36486b;
-    color: #FFF5EA;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #36486b;
+  color: #fff5ea;
+  font-family: Arial, Helvetica, sans-serif;
 
-    max-width: 1020px; 
-    margin: 0 auto !important; 
-	float: none !important; 
+  max-width: 1020px;
+  margin: 0 auto !important;
+  float: none !important;
 }
 
 h1 {
-    margin-bottom: 0;
-    color: #fefbd8;
+  margin-bottom: 0;
+  color: #fefbd8;
 }
 
 h3 {
-    color: #fefbd8;
-    margin: 32px 0 8px 0;
+  color: #fefbd8;
+  margin: 32px 0 8px 0;
 }
 
 img {
-    max-width: 600px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+  max-width: 600px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 p {
-    margin-top: 8px;
-    margin-bottom: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .sub-title {
-    margin-top: 0;
-    color: #fefbd8;
-
+  margin-top: 0;
+  color: #fefbd8;
 }
 
 .mother-div {
-    display: flex;
-    flex-direction: column;
-    margin: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
 }
 
 .header-links {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .header-link {
-    background-color: #2e3d5a;
-    margin: 4px;
-    padding: 4px 12px;
-    border-radius: 8px;
-    text-decoration: none;
-    text-decoration-color: #FFF5EA;
-    color: white;
+  background-color: #2e3d5a;
+  margin: 4px;
+  padding: 4px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-decoration-color: #fff5ea;
+  color: white;
 
-    display: inline-flex;
-    flex-direction: row;
-    gap: 12px;
-    align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
 }
 
 .header-link:hover {
-    background-color: #212d44;
+  background-color: #212d44;
 }
 
 .header-image {
-    height: 24px;
-    width: 24px;
+  height: 24px;
+  width: 24px;
 }
 
 .header-text {
-    font-weight: bold;
-}
-
-.extensions-grid {
-    background-color: #618685;
-    padding: 8px;
-    border-radius: 24px;
-    min-width: 770px;
-
-    display: grid;
-    grid-template-columns: minmax(100px, 180px) repeat(4, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-    grid-template-areas:
-        ". dice rumble witchdice dddice"
-        ". . hptracker . ."
-        ". initiative hptracker clash sit"
-        ". statbubbles hptracker clash tokencounter"
-        ". . hptracker clash ."
-        ". bendy path movement ."
-        ". chardist aoeshapes . ."
-        ". condition marked rings ."
-        ". smoke . . ."
-        ". djinni tracks . .";
+  font-weight: bold;
 }
 
 .category {
-    grid-column: 1 / span 1;
-    font-weight: bold;
-    padding: 12px;
-    justify-self: start;
-    align-self: center;
+  
+  font-weight: bold;
+  padding: 12px;
+  justify-self: start;
+  align-self: center;
 
-    /* text-align: end; */
-    font-size: x-large;
-    color: #FFF5EA;
-}
-
-.category {
-    grid-column: 1 / span 1;
-    font-weight: bold;
-    padding: 12px;
-    justify-self: start;
-    align-self: center;
-
-    display: flex;
-    flex-direction: column;
-    /* text-align: end; */
+  /* text-align: end; */
+  font-size: x-large;
+  color: #fff5ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .category-with-article {
-    grid-column: 1 / span 1;
-    font-weight: bold;
-    margin: 4px;
-    padding: 8px;
-    border-radius: 16px;
-    justify-self: stretch;
-    align-self: center;
+  font-weight: bold;
+  margin: 4px;
+  padding: 8px;
+  border-radius: 16px;
+  justify-self: stretch;
+  align-self: stretch;
+  text-decoration: none;
 
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    transition-duration: 150ms;
+  transition-duration: 150ms;
 
-    animation-name: darken;
-    animation-duration: 1000ms;
-    animation-iteration-count: 1 ;
-    animation-delay: 700ms;
-}
-
-.category-with-article.dice {
-    grid-row: span 2;
+  animation-name: darken;
+  animation-duration: 1000ms;
+  animation-iteration-count: 1;
+  animation-delay: 700ms;
 }
 
 .category-with-article:hover {
-    background-color: rgba(0, 0, 0, 0.116);
-    transform: rotate(-1deg) translateY(-3px);
-}
-
-@keyframes tilt-shaking {
-    0% { transform: rotate(0deg); background-color: rgba(0, 0, 0, 0.116);}
-    25% { transform: rotate(3deg); }
-    50% { transform: rotate(0); }
-    75% { transform: rotate(-3deg); }
-    100% { transform: rotate(0deg); background-color: rgba(0, 0, 0, 0.116);}
+  background-color: rgba(0, 0, 0, 0.116);
+  transform: rotate(-1deg) translateY(-3px);
 }
 
 @keyframes darken {
-    60% {background-color: rgba(0, 0, 0, 0.116);}
+  60% {
+    background-color: rgba(0, 0, 0, 0.116);
+  }
 }
 
 .category-text {
-    font-size: x-large;
-    color: #FFF5EA;
-    margin-bottom: 0;
-    /* margin-bottom: 0px; */
+  font-size: x-large;
+  color: #fff5ea;
+  margin-bottom: 0;
+  /* margin-bottom: 0px; */
 }
 
 .article-link {
-    color: #FFF5EA;
+  color: #fff5ea;
 }
 
 .extension {
-    background-color: #2e3d5a;
-    margin: 4px;
-    padding: 8px;
-    border-radius: 16px;
-    text-decoration: none;
-    text-decoration-color: #FFF5EA;
-    /* min-width: 170px; */
+  background-color: #2e3d5a;
+  margin: 4px;
+  padding: 8px;
+  border-radius: 16px;
+  text-decoration: none;
+  text-decoration-color: #fff5ea;
+  /* min-width: 170px; */
 
-    display: flex;
-    align-items: center;
-    transition-duration: 150ms;
+  display: flex;
+  align-items: center;
+  transition-duration: 150ms;
 }
 
-.wiggle {
-    animation-name: wiggle;
-    animation-duration: 800ms;
-    animation-delay: 500ms;
+.extensions-grid {
+  background-color: #618685;
+  padding: 8px;
+  border-radius: 24px;
+  min-width: 770px;
+
+  display: grid;
+  grid-template-columns: minmax(100px, 180px);
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-areas:
+    "dice-category dice rumble witchdice dddice"
+    "dice-category . hptracker . ."
+    "hp-n-ac-category statbubbles hptracker clash tokencounter"
+    "creature-stat-blocks-category . hptracker clash ."
+    "initiative-category initiative hptracker clash sit"
+    "condition-tracking-category condition marked rings sit"
+    "movement-tools-category bendy path movement ."
+    "grid-tools-category chardist aoeshapes . ."
+    "fog-of-war-category smoke . . ."
+    "audio-category djinni tracks . ."
+    "organization-category prefabs scry outliner outliner-gm";
 }
 
-@keyframes wiggle {
-    0% {background-color: #394769;}
-    20% {transform: rotate(-1deg) translateY(-3px);}
-    80% {transform: rotate(-1deg) translateY(-3px);}
-    95% {transform: rotate(0deg) translateY(0px);}
-    98% {background-color: #394769;}
-    100% {background-color: #2e3d5a;}
+/* Category Areas */
+.Dice-Category {
+  grid-area: dice-category;
+}
+
+.Initiative-Category {
+  grid-area: initiative-category;
+}
+
+.Hp-n-Ac-Tracking-Category {
+  grid-area: hp-n-ac-category;
+}
+
+.Creature-Stat-Blocks-Category {
+  grid-area: creature-stat-blocks-category;
+}
+
+.Movement-Tools-Category {
+  grid-area: movement-tools-category;
+}
+
+.Grid-Tools-Category {
+  grid-area: grid-tools-category;
+}
+
+.Condition-Tracking-Category {
+  grid-area: condition-tracking-category;
+}
+
+.Fog-Of-War-Category {
+  grid-area: fog-of-war-category;
+}
+
+.Audio-Category {
+  grid-area: audio-category;
+}
+
+.Organization-Category {
+  grid-area: organization-category;
 }
 
 .extension:hover {
-    background-color: #394769;
-    transform: rotate(-1deg) translateY(-3px);
+  background-color: #394769;
+  transform: rotate(-1deg) translateY(-3px);
 }
 
 .extension-image {
-    width: 44px;
-    height: 44px;
+  width: 44px;
+  height: 44px;
 }
 
 .extension-text {
-    font-weight: bold;
-    margin: 9px 4px 7px 8px;
-    color: #FBFFF4;
+  font-weight: bold;
+  margin: 9px 4px 7px 8px;
+  color: #fbfff4;
 }
 
+/* Extension Areas */
 .Dice {
-    grid-area:dice;
+  grid-area: dice;
 }
 
 .Initiative {
-    grid-area: initiative;
+  grid-area: initiative;
 }
 
 .Stat-Bubbles-for-DnD {
-    grid-area: statbubbles;
+  grid-area: statbubbles;
 }
 
 .Bendy-Ruler {
-    grid-area: bendy;
+  grid-area: bendy;
 }
 
 .Condition-Markers {
-    grid-area: condition;
+  grid-area: condition;
 }
 
 .Smoke-n-Spectre {
-    grid-area: smoke;
+  grid-area: smoke;
 }
 
 .DJinni-Music-Player {
-    grid-area: djinni;
+  grid-area: djinni;
 }
 
 .dddice {
-    grid-area: dddice;
+  grid-area: dddice;
 }
 
 .hp-tracker {
-    grid-area: hptracker;
+  grid-area: hptracker;
 }
 
 .path-measure {
-    grid-area: path;
+  grid-area: path;
 }
 
 .Marked {
-    grid-area: marked;
+  grid-area: marked;
 }
 
 .Tracks {
-    grid-area: tracks;
+  grid-area: tracks;
 }
 
 .Rumble {
-    grid-area: rumble;
+  grid-area: rumble;
 }
 
 .Clash {
-    grid-area: clash;
+  grid-area: clash;
 }
 
 .Character-Distances {
-    grid-area: chardist;
+  grid-area: chardist;
 }
 
 .Colored-Rings {
-    grid-area: rings;
+  grid-area: rings;
 }
 
 .Sit {
-    grid-area: sit;
+  grid-area: sit;
 }
 
 .Movement-Tracker {
-    grid-area: movement;
+  grid-area: movement;
 }
 
 .AOE-Shapes {
-    grid-area: aoeshapes;
+  grid-area: aoeshapes;
 }
 
 .Witchdice {
-    grid-area: witchdice;
+  grid-area: witchdice;
 }
 
 .Token-Counter {
-    grid-area: tokencounter;
+  grid-area: tokencounter;
 }
 
-.article {
-    background-color: #2e3d5a;
-    /* margin-top: 16px;
-    margin-bottom: 16px; */
-    padding: 16px;
-    border-radius: 24px;
-    margin-top: 24px;
+.Scry {
+  grid-area: scry;
+}
 
-    display: flex;
-    flex-direction: column;
+.Prefabs {
+  grid-area: prefabs;
+}
+
+.Outliner {
+  grid-area: outliner;
+}
+
+.Outliner-Gm {
+  grid-area: outliner-gm;
+}
+
+/* Article */
+.article {
+  background-color: #2e3d5a;
+  /* margin-top: 16px;
+    margin-bottom: 16px; */
+  padding: 16px;
+  border-radius: 24px;
+  margin-top: 24px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .article-title {
-    margin-top: 16px;
-    margin-bottom: 2px;
-    color: #fefbd8;
+  margin-top: 16px;
+  margin-bottom: 2px;
+  color: #fefbd8;
 }
 
 .article-info {
-    margin-top: 2px;
-    margin-bottom: 24px;
+  margin-top: 2px;
+  margin-bottom: 24px;
 }
 
+/* Link arrays */
 .tutorial-links {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .tutorial-link {
-    background-color: #2e3d5a;
-    margin: 4px;
-    padding: 4px 12px;
-    border-radius: 8px;
-    text-decoration: none;
-    text-decoration-color: #FFF5EA;
-    color: white;
+  background-color: #2e3d5a;
+  margin: 4px;
+  padding: 4px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-decoration-color: #fff5ea;
+  color: white;
 
-    display: inline-flex;
-    flex-direction: row;
-    gap: 12px;
-    align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
 }
 
 .tutorial-link:hover {
-    background-color: #212d44;
+  background-color: #212d44;
 }
