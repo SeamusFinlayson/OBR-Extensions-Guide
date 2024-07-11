@@ -11,7 +11,7 @@
   },
   "scripts": {
     "dev": "vite dev",
-    "build": "vite preview",
+    "build": "vite build",
     "preview": "vite preview"
   }
 }

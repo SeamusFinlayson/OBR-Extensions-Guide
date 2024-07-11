@@ -75,7 +75,6 @@ p {
 }
 
 .category {
-  
   font-weight: bold;
   padding: 12px;
   justify-self: start;
@@ -157,13 +156,14 @@ p {
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
   grid-template-areas:
-    "dice-category dice rumble witchdice dddice"
-    "dice-category . hptracker . ."
+    "dice-category dice bones rumble dddice"
+    "dice-category witchdice hptracker . ."
     "hp-n-ac-category statbubbles hptracker clash tokencounter"
     "creature-stat-blocks-category . hptracker clash ."
-    "initiative-category initiative hptracker clash sit"
+    "initiative-category initiative hptracker clash ."
+    "initiative-category sordid . . sit"
     "condition-tracking-category condition marked rings sit"
-    "movement-tools-category bendy path movement ."
+    "movement-tools-category segmentable bendy path movement"
     "grid-tools-category chardist aoeshapes . ."
     "fog-of-war-category smoke . . ."
     "audio-category djinni tracks . ."
@@ -232,12 +232,24 @@ p {
   grid-area: dice;
 }
 
+.Bones {
+  grid-area: bones;
+}
+
 .Initiative {
   grid-area: initiative;
 }
 
 .Stat-Bubbles-for-DnD {
   grid-area: statbubbles;
+}
+
+.Pretty-Sordid {
+  grid-area: sordid;
+}
+
+.Segmentable-Ruler {
+  grid-area: segmentable;
 }
 
 .Bendy-Ruler {
